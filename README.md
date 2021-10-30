@@ -1,7 +1,7 @@
 # Cookiecutter PyPackage
 
 Cookiecutter template for a Python package, built with popular develop tools and
-conform to best practice.
+conform to best practice. This is a fork customized for namespace packaging
 
 [![CI Status](https://github.com/waynerv/cookiecutter-pypackage/actions/workflows/dev.yml/badge.svg)](https://github.com/waynerv/cookiecutter-pypackage/actions/workflows/dev.yml)
 [![License](https://img.shields.io/pypi/l/ppw)](https://opensource.org/licenses/BSD-2-Clause)

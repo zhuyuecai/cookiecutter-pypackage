@@ -5,7 +5,7 @@ import pytest
 {% if cookiecutter.command_line_interface|lower == 'click' -%}
 from click.testing import CliRunner
 
-from {{ cookiecutter.pkg_name }} import cli
+from {{ cookiecutter.pkg_name }} import cli, {{ cookiecutter.module_name }}
 {%- endif %}
 
 
@@ -37,3 +37,4 @@ def test_command_line_interface():
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
 {%- endif %}
+    assert {{cookiecutter.module_name}}.{{cookiecutter.module_name}}.func_t() == 5
