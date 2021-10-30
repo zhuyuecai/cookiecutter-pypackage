@@ -1,6 +1,6 @@
 {
   "project_name": "package-subpackage",
-  "module name": "{{ cookiecutter.project_name.lower().split('-')[1] }}",
+  "module_name": "{{ cookiecutter.project_name.lower().split('-')[1] }}",
   "project_slug": "{{ cookiecutter.project_name.lower() }}",
   "pkg_name": "{{ cookiecutter.project_name.lower().split('-')[0] }}",
   "project_short_description": "Skeleton project created by Cookiecutter PyPackage",
